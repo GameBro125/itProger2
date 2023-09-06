@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e2a600"
+    tools:context=".AuthActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_bold"
+        android:textColor="#fdfdfd"
+        android:layout_gravity="center"
+        android:layout_marginTop="170dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="Авторизация" />
+
+    <EditText
+        android:id="@+id/userLoginAuth"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Введите логин"
+        android:inputType="text"
+        android:textColor="#fdfdfd"
+        android:textColorHint="#6a6a6a" />
+
+    <EditText
+        android:id="@+id/userPassAuth"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Введите пароль"
+        android:inputType="textPassword"
+        android:textColor="#fdfdfd"
+        android:textColorHint="#6a6a6a" />
+
+    <Button
+        android:id="@+id/buttonAuth"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Вход"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/linkToReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/inter"
+        android:text="Регистрация"
+        android:textColor="#fdfdfd"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
